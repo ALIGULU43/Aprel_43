@@ -19,9 +19,9 @@ background-color: rgb(44, 228, 15);
 .qutu_1{
     grid-area: bir;
     background-color: rgb(39, 35, 35);
-    
      padding: 50px;
      padding-top: 120px;
+     
 
 }
 
@@ -64,6 +64,11 @@ h2,p{
     border: 2px solid aliceblue;
 }
 .yazi{
+    color: black;
+}
+
+.btn:hover {
+    background-color: whitesmoke;
     color: black;
 }
 

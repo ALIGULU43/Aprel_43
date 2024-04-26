@@ -3,40 +3,83 @@
     padding: 0;
     box-sizing: border-box;
 }
-.big_box{
+
+.container {
+    max-width: 1500px;
     width: 100%;
-    height: 500px;
-    border: 2px solid black;
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    gap: 10px;
+    margin: 0 auto;
+    padding: 0 32px;
 }
 
-.big_box div{
-    width: 500px;
-    height: 400px;
-    background-color: aqua;
-    
+.navbar{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(4, 235, 235);
+}
 
+.navbar__lists {
+    list-style-type: none;
+    font-family: Georgia, serif;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+
+}
+
+button{
+    border-radius: 22px;
+    background-color: rgb(69, 82, 232);
+    padding: 12px 28px;
+    color: white;
+    border: none;
+  
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.Leo_Messi{
+    width: 600px;
+    height: 470px;
+    padding-top: 15px;
 }
 img{
-    height: 100%;
-    width: 100%;
-}
-
-
-form{
     width: 100%;
     height: 100%;
-    /* border: 1px solid red; */
-    /* display: flex; */
 }
 
-p{
-    font-family: "Dancing Script", cursive;
-    font-size: 25px;
-    position: relative;
-    color: orange;
+.box_1{
+    display: flex;
+    gap: 50px;
+    padding: 10px 0;
+}
+
+.box_2{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+   
+}
+.box_2 div{
+    color: rgb(93, 91, 91);
+    font-size: 10px;
+}
+h1{
+    width: 450px;
+    padding: 15px 0;
+}
+.btn{
+    background-color: aqua;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 11px 22px;  
 }
